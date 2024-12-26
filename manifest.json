@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Upstox Data Fetcher",
+    "version": "1.0",
+    "description": "Fetch and display data from the Upstox API.",
+    "permissions": ["storage", "activeTab"],
+    "host_permissions": ["https://api.upstox.com/*"],
+    "action": {
+      "default_popup": "main.html"
+    }
+  }
+  
